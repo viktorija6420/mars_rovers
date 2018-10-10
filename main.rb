@@ -41,3 +41,17 @@ end
 
 rovers_position = Rovers_position.new(input_array[2], input_array[3], input_array[4])
 puts rovers_position.rover_x, rovers_position.rover_y, rovers_position.heading
+
+class Instructions
+  def initialize (array_of_movements)
+    @array_of_movements = array_of_movements
+  end
+
+  def array_of_movements
+    @array_of_movements
+  end
+
+end
+
+instructions = Instructions.new (input_array[5..-1])
+puts instructions.array_of_movements
