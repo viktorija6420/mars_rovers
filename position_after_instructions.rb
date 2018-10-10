@@ -1,4 +1,7 @@
-input_array = ARGV
+input_array = ARG
+
+require_relative './rovers_position'
+require_relative './instructions'
 
 instructions.array_of_movements.each do |current_movement|
   if  current_movement == "L"
