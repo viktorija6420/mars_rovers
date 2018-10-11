@@ -1,6 +1,6 @@
 require_relative './rovers_position'
 require_relative './instructions'
-input_array = ARG
+input_array = ARGV
 
 instructions = Instructions.new (input_array[5..-1])
 
