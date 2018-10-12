@@ -4,11 +4,11 @@ input_array = ARGV
 
 instructions = Instructions.new
 rovers_position = Rovers_position.new
+rovers_position.rover_x = input_array[2]
+rovers_position.rover_y = input_array[3]
+rovers_position.heading = input_array[4]
 
 instructions.array_of_movements = input_array[5..-1]
-# puts instructions.array_of_movements
-
-puts instructions.array_of_movements
 
 instructions.array_of_movements.each do |current_movement|
   if  current_movement == "L"
@@ -20,9 +20,10 @@ instructions.array_of_movements.each do |current_movement|
           @heading = "E"
       elsif  rovers_position.heading == "E"
           @heading = "N"
-        else
+      else
           @heading = "N"
       end
+
   elsif  current_movement == "R"
       if  rovers_position.heading == "N"
          @heading = "E"
@@ -51,5 +52,5 @@ instructions.array_of_movements.each do |current_movement|
       end
  end
 end
- puts @rover_x, @rover_y, @heading
+puts @rover_x, @rover_y, @heading
 puts "================"
