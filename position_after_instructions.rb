@@ -3,8 +3,8 @@
 # rovers_position which consists of rover_x coordinate,
 # rover_y coordinate and heading.
 # Still working on this part.
-# Things I would maybe do differently next time: more classes
-# and methods to use so I can clean up the code.
+# Things I am planning to change: make more classes
+# and methods to use so I can clean up the code in this file
 
 require_relative './rovers_position'
 require_relative './instructions'
