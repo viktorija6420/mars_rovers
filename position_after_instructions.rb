@@ -1,3 +1,11 @@
+# Explanation:Iterating through the different movements
+# or instructions given to make relevant changes in the
+# rovers_position which consists of rover_x coordinate,
+# rover_y coordinate and heading.
+# Still working on this part.
+# Things I would maybe do differently next time: more classes
+# and methods to use so I can clean up the code.
+
 require_relative './rovers_position'
 require_relative './instructions'
 input_array = ARGV
@@ -23,7 +31,6 @@ instructions.array_of_movements.each do |current_movement|
       else
           @heading = "N"
       end
-
   elsif  current_movement == "R"
       if  rovers_position.heading == "N"
          @heading = "E"

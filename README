@@ -1,0 +1,9 @@
+To run the file:
+1. Check if you have Ruby installed by running: ruby --version
+2. If you don't follow this link: https://www.ruby-lang.org/en/documentation/installation/
+
+3. Go to the repository: cd mars_rovers
+4. Run this on the command line: ruby main.rb insert the input here
+(Suggested input: 5 5 1 2 N L M L M L M L M M)
+
+*I am still working on a better output.

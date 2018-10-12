@@ -1,3 +1,7 @@
+# Explanation: This is the plateau class with two accessors,
+# plateau_x_upper_right and plateau_y_upper_right. This is how
+# the coordinates of the plateau are defined.
+
 input_array = ARGV
 
 class Plateau
