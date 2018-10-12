@@ -1,23 +1,7 @@
 input_array = ARGV
 
 class Rovers_position
-  # def initialize (rover_x, rover_y, heading)
-  #   @rover_x = rover_x
-  #   @rover_y = rover_y
-  #   @heading = heading
-  #
-  #   def rover_x
-  #     @rover_x
-  #   end
-  #
-  #   def rover_y
-  #     @rover_y
-  #   end
-  #
-  #   def heading
-  #     @heading
-  #   end
-  # end
+
   attr_accessor :rover_x
   attr_accessor :rover_y
   attr_accessor :heading
